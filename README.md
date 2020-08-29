@@ -91,8 +91,6 @@ npm run build:lib
 npm run build:demo
 # deploy demo page
 npm run deploy
-# publish
-npm run publish
 ```
 
 ## License
