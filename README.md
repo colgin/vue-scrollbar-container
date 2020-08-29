@@ -48,9 +48,9 @@ yarn add vue-scrollbar-container
     components: { ScrollbarContainer },
     data() {
       return {
-        list: new Array(50).fill(0).map((_, i) => i),
+        list: new Array(50).fill(0).map((_, i) => i)
       }
-    },
+    }
   }
 </script>
 
@@ -70,13 +70,13 @@ yarn add vue-scrollbar-container
 
 ## props
 
-| 参数           | 说明                                                 | 类型    | 可选值     | 默认值                                   |
-| -------------- | ---------------------------------------------------- | ------- | ---------- | ---------------------------------------- |
-| size           | 滚动条条的大小（垂直滚动条的宽度，水平滚动条的高度） | String  | Number     | 'thick', 'normal', 'thin', or any number | 'normal' |
-| autoHide       | 鼠标不在容器里，自动隐藏滚动条                       | Boolean | true/false | false                                    |
-| hideVertical   | 不显示垂直滚动条                                     | Boolean | true/false | false                                    |
-| hideHorizontal | 不显示水平滚动条                                     | Boolean | true/false | false                                    |
-| throttle       | 滚动事件 throttle 时间                               | Number  | Number     | 16                                       |
+| 参数           | 说明                                                 | 类型           | 可选值                                   | 默认值   |
+| -------------- | ---------------------------------------------------- | -------------- | ---------------------------------------- | -------- |
+| size           | 滚动条条的大小（垂直滚动条的宽度，水平滚动条的高度） | String\|Number | 'thick', 'normal', 'thin', or any number | 'normal' |
+| autoHide       | 鼠标不在容器里，自动隐藏滚动条                       | Boolean        | true/false                               | false    |
+| hideVertical   | 不显示垂直滚动条                                     | Boolean        | true/false                               | false    |
+| hideHorizontal | 不显示水平滚动条                                     | Boolean        | true/false                               | false    |
+| throttle       | 滚动事件 throttle 时间                               | Number         | Number                                   | 16       |
 
 ## Development Setup
 
