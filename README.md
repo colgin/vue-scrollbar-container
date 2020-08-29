@@ -91,6 +91,6 @@ npm run build:lib
 npm run build:demo
 ```
 
-## Licence
+## License
 
 [MIT](http://opensource.org/licenses/MIT)
