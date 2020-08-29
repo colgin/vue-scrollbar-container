@@ -5,11 +5,12 @@
   "private": false,
   "main": "dist/vue-scrollbar-container.common.js",
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/colgin/vue-scrollbar-container.git"
   },
   "keywords": [
     "vue.js",
@@ -17,10 +18,7 @@
     "scrollbar",
     "scroll container"
   ],
-  "author": {
-    "name": "colgin",
-    "url": "git+https://github.com/colgin/vue-scrollbar-container.git"
-  },
+  "author": "colgin skyran1995@gmail.com",
   "homepage": "https://github.com/colgin/vue-scrollbar-container#readme",
   "bugs": "https://github.com/colgin/vue-scrollbar-container/issues",
   "license": "MIT",
@@ -29,6 +27,7 @@
     "build:demo": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name vue-scrollbar-container src/components/ScrollbarContainer.vue",
     "prepublish": "npm run build:lib",
+    "deploy": "sh ./script/deploy.sh",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
