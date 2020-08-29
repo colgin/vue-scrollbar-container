@@ -33,12 +33,12 @@ yarn add vue-scrollbar-container
 ```html
 <template>
   <div class="area">
-    <ScrollContainer>
+    <ScrollbarContainer>
       <!-- 放置你要滚动的元素 -->
       <ul :style="ulStyle">
         <li v-for="(item, index) in list" :key="index">{{ item }}</li>
       </ul>
-    </ScrollContainer>
+    </ScrollbarContainer>
   </div>
 </template>
 <script>
@@ -89,6 +89,10 @@ npm run serve
 npm run build:lib
 # build demo
 npm run build:demo
+# deploy demo page
+npm run deploy
+# publish
+npm run publish
 ```
 
 ## License
