@@ -1,5 +1,8 @@
 # vue-scrollbar-container
 
+![NPM](https://img.shields.io/npm/l/vue-scrollbar-container)
+![npm](https://img.shields.io/npm/v/vue-scrollbar-container)
+
 > a scroll contianer component in vue
 
 ## 特性
@@ -8,6 +11,10 @@
 - 支持 自动隐藏滚动条
 - 支持 自动监听元素宽高变化，自动调整滚动条
 - 滚动条等比适应宽高
+
+## online demo
+
+[demo](https://colgin.github.io/vue-scrollbar-container/)
 
 ## 安装
 
